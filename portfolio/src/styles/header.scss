@@ -1,0 +1,35 @@
+@import "colors";
+
+nav{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    
+
+    >h1{
+        color: $dark;
+        padding-left: 4rem;
+    }
+    
+    >main{
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+
+
+        >a{
+            padding: 1rem;
+            color: $dark;
+            font-weight: 800;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
