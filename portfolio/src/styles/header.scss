@@ -7,13 +7,17 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: white;
+    background-color: rgb(236, 240, 220);
     padding: 1rem;
+    position: fixed;
+    
+    
     
 
     >h1{
-        color: $dark;
+        color: $dark;;
         padding-left: 4rem;
+        
     }
     
     >main{
@@ -26,9 +30,12 @@ nav{
             padding: 1rem;
             color: $dark;
             font-weight: 800;
+            text-decoration: none;
 
             &:hover {
-                color: white;
+                color: red;
+                transform: scale(1.1)
+               
             }
         }
     }
