@@ -14,9 +14,10 @@ nav{
     
     
 
-    >h1{
-        color: $dark;;
+    >h4{
+        color: $dark;
         padding-left: 4rem;
+        text-decoration: underline;
         
     }
     
@@ -28,12 +29,12 @@ nav{
 
         >a{
             padding: 1rem;
-            color: $dark;
+            color:  rgb(46, 40, 223);
             font-weight: 800;
             text-decoration: none;
 
             &:hover {
-                color: red;
+                color: $dark;
                 transform: scale(1.1)
                
             }
