@@ -1,7 +1,7 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
+import { Button , Card, ListGroup } from 'react-bootstrap'
 import { FaHtml5 , FaCss3, FaNodeJs, FaJs, FaReact} from 'react-icons/fa'
-import { SiExpress,  SiMongodb, SiGithub,  SiFigma,  SiSass, SiRedux} from "react-icons/si"
+import {   SiMongodb, SiGithub,  SiFigma,  SiSass, SiRedux} from "react-icons/si"
 
 const Home = () => {
   return (
@@ -51,7 +51,7 @@ const Home = () => {
       <FaReact className='icons-one'/>
       <SiRedux className='icons-one'/>
       <FaNodeJs className='icons-one'/>
-      <SiExpress className='icons-one'/>
+     
       <SiMongodb className='icons-one'/>
       <SiGithub className='icons-one'/>
       
@@ -67,24 +67,95 @@ const Home = () => {
       </section>
 
       <section className='proj-one'>
-       
+
+        <div> description </div>
+     
+        <Card style={{ width: '20rem' }}>
+
+          <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+          <Card.Body>
+            <Card.Title>Card Title</Card.Title>
+            </Card.Body>
+      
+          <Card.Body>
+            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Another Link</Card.Link>
+          </Card.Body>
+
+      
+        </Card> 
+
       </section>
 
+     
+
       <section className='proj-two'>
+
+        <div> description </div>
+     
+        <Card style={{ width: '20rem' }}>
+          <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+          <Card.Body>
+            <Card.Title>Card Title</Card.Title>
+          </Card.Body>
+     
+          <Card.Body>
+            <Card.Link href="#">Card Link</Card.Link>
+            <Card.Link href="#">Another Link</Card.Link>
+          </Card.Body>
+        </Card>
+  
+
+     
         
       </section>
 
       <section className='proj-three'>
+
+      <div> description </div>
+     
+     <Card style={{ width: '20rem' }}>
+     <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+     <Card.Body>
+       <Card.Title>Card Title</Card.Title>
+       
+     </Card.Body>
+     
+     <Card.Body>
+       <Card.Link href="#">Card Link</Card.Link>
+       <Card.Link href="#">Another Link</Card.Link>
+     </Card.Body>
+
+     
+   </Card>
+  
+
+     
         
       </section>
 
       <section className='proj-four'>
+      <div> description </div>
+     
+     <Card style={{ width: '20rem' }}>
+     <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+     <Card.Body>
+       <Card.Title>Card Title</Card.Title>
+       
+     </Card.Body>
+     
+     <Card.Body>
+       <Card.Link href="#">Card Link</Card.Link>
+       <Card.Link href="#">Another Link</Card.Link>
+     </Card.Body>
+
+     
+   </Card>
         
+      
       </section>
 
-      <section className='proj-five'>
-        
-      </section>
+     
 
       
     </main>

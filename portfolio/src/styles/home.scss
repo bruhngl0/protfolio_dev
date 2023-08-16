@@ -65,7 +65,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-right: 22rem;
+        padding-right: 20rem;
         padding-top: 4rem;
       
        
@@ -179,20 +179,24 @@
 
 .portfolio-one{
   width: 100%;
+  display: flex;
+  flex-direction: column;
 
 
   .heading {
     width: inherit;
-    height: 3rem;
+    height: 10rem;
     background-color: rgb(46, 40, 223);
     color: rgb(236, 240, 220);
     display: flex;
     align-items: center;
     overflow: hidden;
+    padding-top: 3rem;
 
    >div{ font-size: 30px;
     width: inherit;
     font-weight: 900;
+    
     
     line-height: 1.1;
     letter-spacing: +0.05em;
@@ -214,33 +218,93 @@
    
 
   .proj-one{
+
     width: inherit;
-    height: 30rem;
-    background-color:  rgb(236, 240, 220);
+    
+    background-color:  rgb(46, 40, 223);
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    
+
+    >div{
+      width: 40rem;
+      background-color: rgb(236, 240, 220);
+      margin-right: 4rem;
+      border-radius: 3px;
+      
+    }
+
+   
   }
 
   .proj-two{
     width: inherit;
-    height: 30rem;
-    background-color:  rgb(236, 240, 220);
+    background-color:  rgb(46, 40, 223);
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+
+    
+
+    >div{
+      width: 40rem;
+      background-color: rgb(236, 240, 220);
+      margin-right: 4rem;
+      border-radius: 3px;
+      
+    }
   }
 
   .proj-three{
     width: inherit;
-    height: 30rem;
-    background-color:  rgb(236, 240, 220);
+    background-color:  rgb(46, 40, 223);
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    
+
+    >div{
+      width: 40rem;
+      background-color: rgb(236, 240, 220);
+      margin-right: 4rem;
+      border-radius: 3px;
+      
+    }
   }
 
   .proj-four{
     width: inherit;
-    height: 30rem;
-    background-color:  rgb(236, 240, 220);
+    background-color:  rgb(46, 40, 223);
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    
+
+    >div{
+      width: 40rem;
+      background-color: rgb(236, 240, 220);
+      margin-right: 4rem;
+      border-radius: 3px;
+      
+    }
   }
 
   .proj-five{
     width: inherit;
-    height: 30rem;
-    background-color:  rgb(236, 240, 220);
+    background-color:  rgb(46, 40, 223);
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    
+
+    >div{
+      width: 40rem;
+      background-color: rgb(236, 240, 220);
+      margin-right: 4rem;
+      border-radius: 3px;
+      
+    }
   }
 
 }
