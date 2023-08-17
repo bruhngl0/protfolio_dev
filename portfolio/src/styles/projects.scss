@@ -1,6 +1,12 @@
 
 @import "colors";
 
+@font-face {
+  font-family: 'two';
+  src: url('/fonts/two.otf') format('opentype'); /* Adjust the path and font format as needed */
+
+}
+
 .portfolio-one{
     width: 100%;
     display: flex;
@@ -9,30 +15,40 @@
   
     .heading {
       width: inherit;
-      height: 10rem;
+      height: 5rem;
       background-color: $second;
       color: $first;
       display: flex;
       align-items: center;
       overflow: hidden;
-      padding-top: 3rem;
+      position: relative;
+      
+      border-top:  4px solid $first;
+      border-bottom: 4px solid $first;
+      margin-bottom: 5px;
   
      >div{ font-size: 30px;
       width: inherit;
-      font-weight: 900;
+      font-family: 'two';
+      position: absolute;
       
       
       line-height: 1.1;
-      letter-spacing: +0.05em;
-  
+      letter-spacing: +0.03em;
+      transform: translateY(-50%);
       white-space: nowrap;
-      animation: moveRight 5s linear infinite;
+      animation: slideAnimation 10s linear infinite;
+
+
+
+      
      }
   
-     @keyframes moveRight {
+     @keyframes slideAnimation {
       0% {
-        transform: translateX(0);
+        transform: translateX(-100%);
       }
+
       100% {
         transform: translateX(100%); /* Move text to the right by 100% */
       }
@@ -48,7 +64,8 @@
       background-color:  $second;
       display: flex;
       justify-content: center;
-      padding: 3rem;
+      padding: 2.5rem;
+      padding-top: 5rem;
       
   
       >div{
@@ -59,7 +76,7 @@
         
         >h3{
           padding-left: 3rem;
-          padding-top: 3rem;
+          padding-top: 4rem;
           color: $second;
         }
   
@@ -67,8 +84,10 @@
           padding-left: 3rem;
           padding-top: 2rem;
           padding-right: 3rem;
-          font-size: 1.2rem;
+          font-size: 1rem;
           line-height: 1.6;
+          letter-spacing: +0.03rem;
+          
           color: $second;
         }
         
@@ -82,7 +101,7 @@
       background-color:  $second;
       display: flex;
       justify-content: center;
-      padding: 3rem;
+      padding: 2.5rem;
   
       
   
@@ -94,7 +113,7 @@
   
         >h3{
           padding-left: 3rem;
-          padding-top: 3rem;
+          padding-top: 4rem;
           color: $second;
         }
   
@@ -102,7 +121,8 @@
           padding-left: 3rem;
           padding-top: 2rem;
           padding-right: 3rem;
-          font-size: 1.2rem;
+          font-size: 1rem;
+          letter-spacing: +0.03rem;
           line-height: 1.6;
           color: $second;
         }
@@ -115,7 +135,7 @@
       background-color: $second;
       display: flex;
       justify-content: center;
-      padding: 3rem;
+      padding: 2.5rem;
       
   
       >div{
@@ -126,7 +146,7 @@
   
         >h3{
           padding-left: 3rem;
-          padding-top: 3rem;
+          padding-top: 4rem;
           color: $second;
         }
   
@@ -134,9 +154,10 @@
           padding-left: 3rem;
           padding-top: 2rem;
           padding-right: 3rem;
-          font-size: 1.2rem;
+          font-size: 1rem;
           line-height: 1.6;
           color: $second;
+          letter-spacing: +0.03rem;
         }
         
       }
@@ -147,7 +168,8 @@
       background-color: $second;
       display: flex;
       justify-content: center;
-      padding: 3rem;
+      padding: 2.5rem;
+      padding-bottom: 5rem;
       
   
       >div{
@@ -157,7 +179,7 @@
         border-radius: 3px;
   
         >h3{
-          padding-left: 3rem;
+          padding-left: 4rem;
           padding-top: 3rem;
           color: $second;
         }
@@ -166,9 +188,10 @@
           padding-left: 3rem;
           padding-top: 2rem;
           padding-right: 3rem;
-          font-size: 1.2rem;
+          font-size: 1rem;
           line-height: 1.6;
           color: $second;
+          letter-spacing: +0.03rem;
         }
         
       }

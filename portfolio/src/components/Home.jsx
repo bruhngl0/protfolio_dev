@@ -4,6 +4,8 @@ import { FaHtml5 , FaCss3, FaNodeJs, FaJs, FaReact} from 'react-icons/fa'
 import {   SiMongodb, SiGithub,  SiFigma,  SiSass, SiRedux} from "react-icons/si"
 import Contact from './Contact'
 
+
+
 const Home = () => {
   return (
     <>
@@ -14,7 +16,7 @@ const Home = () => {
         <h1>FULL-STACK</h1>
         <h1>DEVELOPER.</h1> 
         <p>G'DAY, I am just a dude trying to be a solid <b>Web Developer</b>, and a decent human being along the way.</p>
-        <Button className='btn btn-light btn-sm'><b style ={{color: 'rgb(84, 76, 102)' }}>Download Resume</b></Button>  
+        <Button className='btn btn-light btn-sm'><b style ={{color: 'rgb(84, 76, 102)' }}> Resume</b></Button>  
     </section>
     <section className='home-two'>
             <img src= "/bg/IMG-20230813-WA0008-removebg-preview(1).png" alt= "me" />
@@ -64,7 +66,8 @@ const Home = () => {
     <main className='portfolio-one' id = 'projects'>
 
       <section className='heading'>
-        <div>PROJECTS...</div>
+        <div>PROJECTS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROJECTS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROJECTS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROJECTS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROJECTS</div>
+        
       </section>
 
       <section className='proj-one'>

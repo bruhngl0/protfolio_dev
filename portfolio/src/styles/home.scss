@@ -1,5 +1,13 @@
 @import "colors";
 
+
+@font-face {
+  font-family: 'two';
+  src: url('/fonts/two.otf') format('opentype'); /* Adjust the path and font format as needed */
+
+}
+
+
 .home-main{
   background-image: url('/bg/final.png'); /* Replace 'background.jpg' with your image file path */
       background-size: cover;
@@ -29,11 +37,13 @@
 
          >h1{
             padding-bottom: 0.5rem;
-            font-size: 50px;
+            font-family: 'two';
+            font-size: 3rem;
             font-weight: 900;
+            
             color: $first;
             line-height: 1.1;
-            letter-spacing: -0.03em;
+            letter-spacing: +0.03em;
         }
 
 
@@ -52,7 +62,9 @@
             background-color: $fav;
 
             &:hover {
-                transform: scale(1.1)
+                box-shadow: 10px 10px 0px $first;
+                top: -5px;
+                left: -5px;
                
             }
         }

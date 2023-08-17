@@ -1,6 +1,163 @@
+
+@import "colors";
+
+@font-face {
+  font-family: 'two';
+  src: url('/fonts/two.otf') format('opentype'); /* Adjust the path and font format as needed */
+
+}
+
 .contact-one{
-    background-color: rgb(236, 240, 220);
     width: 100%;
-    height: 40rem;
-  }
+    display: flex;
+    flex-direction: column;
   
+  
+    .contact-slider {
+      width: inherit;
+      height: 5rem;
+      background-color: white;
+      color: $second;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      position: relative;
+      
+      border-top:  4px solid $second;
+      border-bottom: 4px solid $second;
+      margin-top: 3px;
+  
+     >div{ font-size: 30px;
+      width: inherit;
+      font-family: 'two';
+      position: absolute;
+      
+      
+      line-height: 1.1;
+      letter-spacing: +0.03em;
+      transform: translateY(-50%);
+      white-space: nowrap;
+      animation: slideAnimation 10s linear infinite;
+
+
+
+      
+     }
+  
+     @keyframes slideAnimation {
+      0% {
+        transform: translateX(-100%);
+      }
+
+      100% {
+        transform: translateX(100%); /* Move text to the right by 100% */
+      }
+    }
+      
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+     
+
+    >h1{
+        font-family: 'two';
+        letter-spacing: +0.03;
+        padding-bottom: 2rem;
+        color: $second;
+    }
+}
+
+
+.ne{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    height: 10rem;
+
+    .form-one{
+        padding: 1rem;
+        width: 20rem;
+
+        .try{
+            border: transparent;
+            border-bottom: 2px solid $second;
+        }
+    }
+
+    .form-two{
+        padding: 1rem;
+
+        
+            .fry{
+                border: transparent;
+                border-bottom: 2px solid $second;
+            }
+        }
+        
+    }
+
+
+.be{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    height: 4rem;
+
+    .form-three{
+        
+        width: 36rem;
+        
+        .text-ar{
+            width: inherit;
+            border: transparent;
+            border-bottom: 2px solid $second;
+
+            
+        }
+
+  
+
+}
+}
+
+.btn-last {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    height: 20rem;
+    padding-bottom: 12rem;
+    
+
+    >Button{
+        max-width: 150px;
+            background-color: $second;
+
+            &:hover {
+                box-shadow: 10px 10px 0px $first;
+                top: -5px;
+                left: -5px;
+               
+            }
+    }
+    >h4{
+        padding-top: 3rem;
+        padding-bottom: 0.7rem;
+    }
+    
+}
+
+
+  
+}
