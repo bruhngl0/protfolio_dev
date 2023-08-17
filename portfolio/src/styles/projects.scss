@@ -1,0 +1,179 @@
+
+@import "colors";
+
+.portfolio-one{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+  
+    .heading {
+      width: inherit;
+      height: 10rem;
+      background-color: $second;
+      color: $first;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      padding-top: 3rem;
+  
+     >div{ font-size: 30px;
+      width: inherit;
+      font-weight: 900;
+      
+      
+      line-height: 1.1;
+      letter-spacing: +0.05em;
+  
+      white-space: nowrap;
+      animation: moveRight 5s linear infinite;
+     }
+  
+     @keyframes moveRight {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(100%); /* Move text to the right by 100% */
+      }
+    }
+      
+    }
+     
+  
+    .proj-one{
+  
+      width: inherit;
+      
+      background-color:  $second;
+      display: flex;
+      justify-content: center;
+      padding: 3rem;
+      
+  
+      >div{
+        width: 40rem;
+        background-color: white;
+        margin-right: 4rem;
+        border-radius: 3px;
+        
+        >h3{
+          padding-left: 3rem;
+          padding-top: 3rem;
+          color: $second;
+        }
+  
+        >p{
+          padding-left: 3rem;
+          padding-top: 2rem;
+          padding-right: 3rem;
+          font-size: 1.2rem;
+          line-height: 1.6;
+          color: $second;
+        }
+        
+      }
+  
+     
+    }
+  
+    .proj-two{
+      width: inherit;
+      background-color:  $second;
+      display: flex;
+      justify-content: center;
+      padding: 3rem;
+  
+      
+  
+      >div{
+        width: 40rem;
+        background-color: white;
+        margin-right: 4rem;
+        border-radius: 3px;
+  
+        >h3{
+          padding-left: 3rem;
+          padding-top: 3rem;
+          color: $second;
+        }
+  
+        >p{
+          padding-left: 3rem;
+          padding-top: 2rem;
+          padding-right: 3rem;
+          font-size: 1.2rem;
+          line-height: 1.6;
+          color: $second;
+        }
+        
+      }
+    }
+  
+    .proj-three{
+      width: inherit;
+      background-color: $second;
+      display: flex;
+      justify-content: center;
+      padding: 3rem;
+      
+  
+      >div{
+        width: 40rem;
+        background-color: white;
+        margin-right: 4rem;
+        border-radius: 3px;
+  
+        >h3{
+          padding-left: 3rem;
+          padding-top: 3rem;
+          color: $second;
+        }
+  
+        >p{
+          padding-left: 3rem;
+          padding-top: 2rem;
+          padding-right: 3rem;
+          font-size: 1.2rem;
+          line-height: 1.6;
+          color: $second;
+        }
+        
+      }
+    }
+  
+    .proj-four{
+      width: inherit;
+      background-color: $second;
+      display: flex;
+      justify-content: center;
+      padding: 3rem;
+      
+  
+      >div{
+        width: 40rem;
+        background-color: white;
+        margin-right: 4rem;
+        border-radius: 3px;
+  
+        >h3{
+          padding-left: 3rem;
+          padding-top: 3rem;
+          color: $second;
+        }
+  
+        >p{
+          padding-left: 3rem;
+          padding-top: 2rem;
+          padding-right: 3rem;
+          font-size: 1.2rem;
+          line-height: 1.6;
+          color: $second;
+        }
+        
+      }
+    }
+  
+    
+  
+  }

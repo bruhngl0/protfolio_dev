@@ -7,7 +7,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: rgb(236, 240, 220);
+    background-color: transparent;
     padding: 1rem;
     position: fixed;
     
@@ -15,7 +15,7 @@ nav{
     
 
     >h4{
-        color: $dark;
+        color: rgb(236, 229, 229);
         padding-left: 4rem;
         text-decoration: underline;
         
@@ -29,7 +29,7 @@ nav{
 
         >a{
             padding: 1rem;
-            color:  rgb(46, 40, 223);
+            color:  rgb(236, 229, 229);
             font-weight: 800;
             text-decoration: none;
 

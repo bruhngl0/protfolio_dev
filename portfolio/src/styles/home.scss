@@ -1,10 +1,10 @@
 @import "colors";
 
 .home-main{
-  background-image: url('/bg/two.png'); /* Replace 'background.jpg' with your image file path */
+  background-image: url('/bg/final.png'); /* Replace 'background.jpg' with your image file path */
       background-size: cover;
       width: 100%;
-      height: 100vh;
+      height: 80vh;
 
       display: flex;
       flex-direction: row;
@@ -23,7 +23,7 @@
         
         
         padding-left: 15rem;
-        padding-top: 4rem;
+        padding-top: 1rem;
         color: $dark;
       
 
@@ -31,7 +31,7 @@
             padding-bottom: 0.5rem;
             font-size: 50px;
             font-weight: 900;
-            color: rgb(46, 40, 223);
+            color: $first;
             line-height: 1.1;
             letter-spacing: -0.03em;
         }
@@ -43,11 +43,13 @@
       >p{
         font-size: 1.2rem;
         line-height: 1.6;
+        color: white;
 
       }
 
         >Button{
             max-width: 150px;
+            background-color: $fav;
 
             &:hover {
                 transform: scale(1.1)
@@ -56,7 +58,7 @@
         }
 
         
-      }
+        }
 
       .home-two{
         
@@ -66,7 +68,7 @@
         justify-content: center;
         align-items: center;
         padding-right: 20rem;
-        padding-top: 4rem;
+        padding-top: 1rem;
       
        
       
@@ -75,7 +77,7 @@
         >img{
             height: 15rem;
             width: 15rem;
-            border: 5px solid $dark;
+            border: 5px solid white;
             
             
                           
@@ -85,229 +87,11 @@
      
       }
 
-     }
-
-     .about-main-one{
-      width: 100%;
-      height: 20rem;
-      background-color:  rgb(236, 240, 220);
-      color: $dark;
-      display: flex;
-      flex-direction: column;
-   
-  
-      .sect-one{
-        width: 100%;
-        padding-left: 15rem;
-        padding-right: 15rem;
-        padding-top: 5rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-  
-  
-        >h3{
-          padding-bottom: 3rem;
-          font-size: 30px;
-          font-weight: 900;
-          color:  rgb(46, 40, 223);
-          line-height: 1.1;
-          letter-spacing: -0.03em;
-          text-align:justify;
-      }
-  
-        >p{
-          font-size: 1.2rem;
-          line-height: 1.6;
-          
-        }
-  
-      }
-
-    
-     
-    }
-  
-
-     .about-main-two {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color:  rgb(236, 240, 220);
-        width: 100%;
-        height: 20rem;
-        padding-top: 5rem;
-
-
-
-      >h3{
-        
-        font-size: 30px;
-        font-weight: 900;
-        color:  rgb(46, 40, 223);
-        line-height: 1.1;
-        letter-spacing: -0.03em;
-        text-align:justify;
-        padding-bottom: 3rem;
-      }
-        
-      
-      
-      .icons {
-        display: flex;
-        gap: 40px; /* Adjust the gap between icons */
-        margin-top: 30px;
-        
-        
-       .icons-one{
-                width: 40px;
-                height: 40px;
-
-                &:hover {
-                    transform: scale(1.1)
-                   
-                }
-
-       }
-    }
-
-    >h5{
-     color: $dark;
-    }
-    
-}
-
-.portfolio-one{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-
-
-  .heading {
-    width: inherit;
-    height: 10rem;
-    background-color: rgb(46, 40, 223);
-    color: rgb(236, 240, 220);
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    padding-top: 3rem;
-
-   >div{ font-size: 30px;
-    width: inherit;
-    font-weight: 900;
-    
-    
-    line-height: 1.1;
-    letter-spacing: +0.05em;
-
-    white-space: nowrap;
-    animation: moveRight 5s linear infinite;
-   }
-
-   @keyframes moveRight {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(100%); /* Move text to the right by 100% */
-    }
-  }
-    
-  }
-   
-
-  .proj-one{
-
-    width: inherit;
-    
-    background-color:  rgb(46, 40, 223);
-    display: flex;
-    justify-content: center;
-    padding: 3rem;
-    
-
-    >div{
-      width: 40rem;
-      background-color: rgb(236, 240, 220);
-      margin-right: 4rem;
-      border-radius: 3px;
-      
-    }
-
-   
-  }
-
-  .proj-two{
-    width: inherit;
-    background-color:  rgb(46, 40, 223);
-    display: flex;
-    justify-content: center;
-    padding: 3rem;
+ }
 
     
 
-    >div{
-      width: 40rem;
-      background-color: rgb(236, 240, 220);
-      margin-right: 4rem;
-      border-radius: 3px;
-      
-    }
-  }
 
-  .proj-three{
-    width: inherit;
-    background-color:  rgb(46, 40, 223);
-    display: flex;
-    justify-content: center;
-    padding: 3rem;
-    
-
-    >div{
-      width: 40rem;
-      background-color: rgb(236, 240, 220);
-      margin-right: 4rem;
-      border-radius: 3px;
-      
-    }
-  }
-
-  .proj-four{
-    width: inherit;
-    background-color:  rgb(46, 40, 223);
-    display: flex;
-    justify-content: center;
-    padding: 3rem;
-    
-
-    >div{
-      width: 40rem;
-      background-color: rgb(236, 240, 220);
-      margin-right: 4rem;
-      border-radius: 3px;
-      
-    }
-  }
-
-  .proj-five{
-    width: inherit;
-    background-color:  rgb(46, 40, 223);
-    display: flex;
-    justify-content: center;
-    padding: 3rem;
-    
-
-    >div{
-      width: 40rem;
-      background-color: rgb(236, 240, 220);
-      margin-right: 4rem;
-      border-radius: 3px;
-      
-    }
-  }
-
-}
 
 
 
